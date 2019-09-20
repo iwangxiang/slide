@@ -1,0 +1,168 @@
+.container{
+    width: 6.4rem;
+    margin: 0 auto;
+}
+.banner{
+    height: 4.1rem;
+}
+.banner img{
+    width: 100%;
+    display: block;
+}
+.introduction{
+    height: 5.57rem;
+    background: url(../images/introductionBg.jpg) no-repeat;
+}
+.introduction div{
+    width: 5.89rem;
+    height: 4.2rem;
+    margin: 0 auto;
+    position: relative;
+    top: .69rem;
+}
+.introduction div img{
+    width: 100%;
+    display: block;
+}
+.tabTitle{
+    height: 2.08rem;
+    background-color: #1C1C1C;
+}
+.tabTitle h2{
+    width: 1.46rem;
+    height: .7rem;
+    background-color: #1A2266;
+    float: left;
+    margin-left: .02rem;
+    margin-top: .02rem;
+    color: #fff;
+    font-size: .22rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: .7rem;
+}
+.tabTitle h2.active{
+    background-color: #BA1616;
+}
+.tabTitle h2:nth-child(1),.tabTitle h2:nth-child(5){
+    margin-left: .25rem;
+}
+.tabTitle h2:nth-child(1),.tabTitle h2:nth-child(2),.tabTitle h2:nth-child(3),.tabTitle h2:nth-child(4){
+    margin-top: .36rem;
+}
+.tabCont{
+    background-color: #1A2266;
+    padding-top: .71rem;
+    padding-bottom: .85rem;
+}
+.tabCont div{
+    color: #fff;
+    display: none;
+}
+.tabCont div:nth-child(1){
+    display: block;
+}
+.tabCont div:nth-child(1),.tabCont div:nth-child(2){
+    width: 5.9rem;
+    height: 10.08rem;
+    margin: 0 auto;
+}
+.tabCont div:nth-child(3){
+    width: 5.9rem;
+    height: 11.04rem;
+    margin: 0 auto;
+}
+.tabCont div:nth-child(4){
+    width: 5.62rem;
+    height: 8.66rem;
+    margin: 0 auto;
+}
+.tabCont div:nth-child(5){
+    width: 6.05rem;
+    height: 10.72rem;
+    margin: 0 auto;
+}
+.tabCont div:nth-child(6){
+    width: 5.41rem;
+    height: 10.09rem;
+    margin: 0 auto;
+}
+.tabCont div:nth-child(7){
+    width: 5.43rem;
+    height: 9.52rem;
+    margin: 0 auto;
+}
+.banner2{
+    width: 5.45rem;
+    height: 3.64rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.tabCont div:nth-child(1) img,.tabCont div:nth-child(2) img,.tabCont div:nth-child(3) img,.tabCont div:nth-child(4) img,.tabCont div:nth-child(5) img,.tabCont div:nth-child(6) img,.tabCont div:nth-child(7) img{
+    width: 100%;
+    display: block;
+}
+.sum{
+    height: 5.27rem;
+}
+.sum img{
+    width: 100%;
+    display: block;
+}
+.signUp{
+    height: 1.65rem;
+    background-color: #1a2266;
+    position: relative;
+}
+.signUp img{
+    width: 5.46rem;
+    height: .6rem;
+    display: block;
+    position: absolute;
+    top: .54rem;
+    left: .47rem;
+}
+.footer{
+    height: 1.05rem;
+}
+.footer img{
+    width: 100%;
+    display: block;
+}
+
+
+.banner2 ul{
+    height: 3.64rem;
+}
+.banner2 ul li{
+    width: 5.46rem;
+    height: 3.64rem;
+    float: left;
+}
+.banner2 ul li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    position: absolute;
+    left: 0;
+    bottom: .2rem;
+    width: 100%;
+    height: .2rem;
+    text-align: center;
+}
+.nav span{
+    display: inline-block;
+    margin: 0 .03rem;
+    width: .2rem;
+    height: .2rem;
+    background-color: green;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.nav span.active{
+    background-color: red;
+}
